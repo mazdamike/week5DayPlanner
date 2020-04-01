@@ -32,41 +32,60 @@
     </header>
     <div class="container" style="margin: 0 auto;">
       
-      <!-- Timeblocks go here -->
-      <div class="hour" style="width: 200px; height: 80px; float: left;">7 am</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
+      <!-- Timeblocks go here - 7 am through 5 pm -->
+      <div class="hour">7 am</div>
+      <div class="row" id="7am"><textarea id="7amText"></textarea></div>
+      <div><button class="saveBtn" id="7amBtn"><i class='far fa-save fa-lg'></i></button></div>
       <div style="clear: left;"></div>
-      <div class="hour" style="width: 200px; height: 80px; float: left;">8 am</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">9 am</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">10 am</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">11 am</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">12 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">1 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">2 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">3 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">4 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
-      <div style="clear: left;"></div><div class="hour" style="width: 200px; height: 80px; float: left;">5 pm</div>
-      <div class="row past" style="width: 800px; height: 80px; float: left;"><textarea style="width: 800px;"></textarea></div>
-      <div><button class="saveBtn" style="width: 100px; height: 80px; float: left;"><i class='far fa-save fa-lg'></i></button></div>
+
+      <div class="hour">8 am</div>
+      <div class="row" id="8am"><textarea id="8amText"></textarea></div>
+      <div><button class="saveBtn" id="8amBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+
+      <div class="hour">9 am</div>
+      <div class="row" id="9am"><textarea id="9amText"></textarea></div>
+      <div><button class="saveBtn" id="9amBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+
+      <div class="hour">10 am</div>
+      <div class="row" id="10am"><textarea id="10amText"></textarea></div>
+      <div><button class="saveBtn" id="10amBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">11 am</div>
+      <div class="row" id="11am"><textarea id="11amText"></textarea></div>
+      <div><button class="saveBtn" id="11amBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">12 pm</div>
+      <div class="row" id="12pm"><textarea id="12pmText"></textarea></div>
+      <div><button class="saveBtn" id="12pmBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">1 pm</div>
+      <div class="row" id="1pm"><textarea id="1pmText"></textarea></div>
+      <div><button class="saveBtn" id="1pmBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">2 pm</div>
+      <div class="row" id="2pm"><textarea id="2pmText"></textarea></div>
+      <div><button class="saveBtn" id="2pmBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">3 pm</div>
+      <div class="row" id="3pm"><textarea id="3pmText"></textarea></div>
+      <div><button class="saveBtn" id="3pmBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">4 pm</div>
+      <div class="row" id="4pm"><textarea id="4pmText"></textarea></div>
+      <div><button class="saveBtn" id="4pmBtn"><i class='far fa-save fa-lg'></i></button></div>
+      <div style="clear: left;"></div>
+      
+      <div class="hour">5 pm</div>
+      <div class="row" id="5pm"><textarea id="5pmText"></textarea></div>
+      <div><button class="saveBtn" id="5pmBtn"><i class='far fa-save fa-lg'></i></button></div>
       <div style="clear: left;"></div>
       
       </div>
