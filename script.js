@@ -148,44 +148,44 @@ $(document).ready(function () {
         localStorage.setItem("9am", userInput9);
     });
 
-    $("#10amBtn").click(function() {
+    $("#10amBtn").click(function () {
         var userInput10 = $("#10amText").val();
         localStorage.setItem("10am", userInput10);
-      });
+    });
 
-      $("#11amBtn").click(function() {
+    $("#11amBtn").click(function () {
         var userInput11 = $("#11amText").val();
         localStorage.setItem("11am", userInput11);
-      });
+    });
 
-      $("#12pmBtn").click(function() {
+    $("#12pmBtn").click(function () {
         var userInput12 = $("#12pmText").val();
         localStorage.setItem("12pm", userInput12);
-      });
+    });
 
-      $("#1pmBtn").click(function() {
+    $("#1pmBtn").click(function () {
         var userInput13 = $("#1pmText").val();
         localStorage.setItem("1pm", userInput13);
-      });
+    });
 
-      $("#2pmBtn").click(function() {
+    $("#2pmBtn").click(function () {
         var userInput14 = $("#2pmText").val();
         localStorage.setItem("2pm", userInput14);
-      });
+    });
 
-      $("#3pmBtn").click(function() {
+    $("#3pmBtn").click(function () {
         var userInput15 = $("#3pmText").val();
         localStorage.setItem("3pm", userInput15);
-      });
+    });
 
-      $("#4pmBtn").click(function() {
+    $("#4pmBtn").click(function () {
         var userInput16 = $("#4pmText").val();
         localStorage.setItem("4pm", userInput16);
-      });
+    });
 
-      $("#5pmBtn").click(function() {
+    $("#5pmBtn").click(function () {
         var userInput17 = $("#5pmText").val();
         localStorage.setItem("5pm", userInput17);
-      });
+    });
 
 });
