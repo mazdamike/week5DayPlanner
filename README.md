@@ -4,7 +4,9 @@ This app is a day planner that enable the user to enter appointments for specifi
 
 In addition, the current hour has a red background, past hours have a grey background, and future hours have a green background.
 
-A screenshot is included in the file list.
+The current day of the month appears in the header of the calendar.
 
+A screenshot is included in the file list - plannerScreenShot.PNG
 
+Here you can access the [Day Planner](https://mazdamike.github.io/week5DayPlanner/)
 
